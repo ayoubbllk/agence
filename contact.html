@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactez DRIK Tourism & Travel — Agence de voyage premium à Alger. Devis gratuit sous 24h.">
+  <title>Contact — DRIK Tourism & Travel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo"><div class="logo__icon"><span>D</span></div><div class="logo__text"><span class="logo__name">DRIK</span><span class="logo__tagline">Tourism & Travel</span></div></a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Accueil</a></li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li><a href="destinations.html" class="nav__link">Voyages</a></li>
+          <li><a href="hadj-omra.html" class="nav__link">Hadj & Omra</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--gold">Réserver</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html">Accueil</a><a href="services.html">Services</a><a href="destinations.html">Voyages</a><a href="hadj-omra.html">Hadj & Omra</a><a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn--gold">Réserver</a>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero__bg" style="background-image:url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1600&q=80&auto=format&fit=crop')"></div>
+    <div class="page-hero__overlay"></div>
+    <div class="container page-hero__content">
+      <div class="page-hero__breadcrumb fade-in"><a href="index.html">Accueil</a> / Contact</div>
+      <h1 class="page-hero__title fade-in">Contactez-nous</h1>
+      <p class="page-hero__desc fade-in fade-in-delay-1">Notre équipe est à votre écoute pour concrétiser votre prochain voyage — réponse sous 24h garantie.</p>
+    </div>
+  </section>
+
+  <!-- SECTION 1 : FORMULAIRE + INFOS -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="fade-in">
+          <p class="eyebrow">Écrivez-nous</p>
+          <h2 class="section-title" style="font-size:1.75rem;margin-bottom:1.5rem">Demande de Devis</h2>
+
+          <div class="form-success" id="formSuccess">
+            ✓ Merci ! Notre équipe vous contactera dans les plus brefs délais, incha'Allah.
+          </div>
+
+          <div class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="nom">Nom complet *</label>
+              <input type="text" id="nom" placeholder="Votre nom">
+              <span class="form-error" id="nomError">Veuillez entrer votre nom</span>
+            </div>
+            <div class="form-group">
+              <label for="telephone">Téléphone *</label>
+              <input type="tel" id="telephone" placeholder="0XX XX XX XX">
+              <span class="form-error" id="telephoneError">Numéro invalide</span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" placeholder="votre@email.com">
+              <span class="form-error" id="emailError">Email invalide</span>
+            </div>
+            <div class="form-group">
+              <label for="service">Service souhaité *</label>
+              <select id="service">
+                <option value="">— Sélectionnez —</option>
+                <option value="maritime">Billetterie Maritime GNV</option>
+                <option value="aerien">Billetterie Aérienne</option>
+                <option value="organise">Voyage Organisé</option>
+                <option value="omra">Forfait Omra</option>
+                <option value="hadj">Forfait Hadj</option>
+                <option value="visa">Assistance Visa</option>
+                <option value="sur-mesure">Voyage Sur Mesure</option>
+              </select>
+              <span class="form-error" id="serviceError">Sélectionnez un service</span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Dates souhaitées, nombre de personnes, destination..."></textarea>
+            </div>
+            <button type="button" class="btn btn--gold" id="submitBtn">Envoyer ma demande</button>
+          </div>
+        </div>
+
+        <div class="fade-in fade-in-delay-1">
+          <div class="contact-info-card">
+            <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;margin-bottom:1.75rem;color:var(--white)">Nos Coordonnées</h3>
+
+            <div class="contact-info__item">
+              <div class="contact-info__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div>
+                <p class="contact-info__label">Adresse</p>
+                <p>[À remplir — Alger, Algérie]</p>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <div class="contact-info__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+              <div>
+                <p class="contact-info__label">Téléphone</p>
+                <p>[À remplir]</p>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <div class="contact-info__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></div>
+              <div>
+                <p class="contact-info__label">Email</p>
+                <p>[À remplir]</p>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <div class="contact-info__icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></div>
+              <div>
+                <p class="contact-info__label">WhatsApp</p>
+                <p>[À remplir]</p>
+              </div>
+            </div>
+
+            <div style="margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,0.1)">
+              <p class="contact-info__label">Horaires d'ouverture</p>
+              <p style="margin-top:0.5rem;font-size:0.95rem">
+                <strong>Dim – Jeu :</strong> 8h – 17h<br>
+                <strong>Samedi :</strong> 9h – 12h<br>
+                <span style="opacity:0.6;font-size:0.85rem">Vendredi : fermé</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2 : FAQ -->
+  <section class="section section--light">
+    <div class="container text-center">
+      <p class="eyebrow fade-in" style="justify-content:center">Questions fréquentes</p>
+      <h2 class="section-title fade-in">FAQ</h2>
+      <p class="section-subtitle fade-in" style="margin-left:auto;margin-right:auto">Les réponses aux questions les plus posées par nos clients.</p>
+
+      <div class="faq-list fade-in">
+        <div class="faq-item">
+          <button class="faq-question">
+            Comment réserver une traversée GNV ?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>Contactez-nous par téléphone ou via le formulaire en sélectionnant « Billetterie Maritime GNV ». Nous vérifions les disponibilités et vous envoyons un devis sous 24h. Paiement en agence ou virement bancaire.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Quels documents pour un visa Schengen ?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>Passeport valide 6 mois, relevés bancaires, attestation de travail, assurance voyage, réservations hôtel et vol. Notre équipe prépare l'intégralité du dossier et prend le rendez-vous consulat.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Les forfaits Omra incluent-ils le visa ?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>Oui, tous nos forfaits Omra incluent le visa, le vol, l'hébergement, les transferts et l'accompagnement. Seuls les dépenses personnelles et les pourboires ne sont pas inclus.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Proposez-vous des facilités de paiement ?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>Oui, pour les voyages organisés et les pèlerinages, un acompte de 30% à la réservation et le solde avant le départ. Des échéanciers peuvent être arrangés pour les groupes familiaux.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            D'où partent les vols pour les circuits ?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>La majorité de nos circuits partent d'Alger (Aéroport Houari Boumediene). Des départs depuis Oran, Constantine ou Annaba sont possibles sur demande avec supplément.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3 : AGENCE -->
+  <section class="section">
+    <div class="container">
+      <div class="gnv-block">
+        <div class="fade-in">
+          <p class="eyebrow">Notre agence</p>
+          <h2 class="section-title">Venez Nous Rencontrer</h2>
+          <p class="section-subtitle">Située au cœur d'Alger, notre agence vous accueille dans un cadre professionnel pour planifier votre voyage en toute sérénité.</p>
+          <ul class="package-card__features" style="margin-bottom:1.5rem">
+            <li>Conseillers voyage expérimentés</li>
+            <li>Devis gratuit et sans engagement</li>
+            <li>Parking à proximité</li>
+            <li>Accès PMR</li>
+          </ul>
+          <a href="tel:+213000000000" class="btn btn--gold">Appeler maintenant</a>
+        </div>
+        <div class="gnv-visual fade-in fade-in-delay-1">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80&auto=format&fit=crop" alt="Bureau agence de voyage" loading="lazy">
+          <span class="gnv-visual__badge">Alger</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="cta-band__bg"></div>
+    <div class="container cta-band__content fade-in">
+      <h2 class="section-title">Préférez WhatsApp ?</h2>
+      <p>Envoyez-nous un message directement — nous répondons rapidement, même le soir.</p>
+      <div class="cta-band__actions">
+        <a href="#" class="btn btn--gold">Écrire sur WhatsApp</a>
+        <a href="destinations.html" class="btn btn--outline">Voir les destinations</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div><a href="index.html" class="logo"><div class="logo__icon"><span>D</span></div><div class="logo__text"><span class="logo__name">DRIK</span><span class="logo__tagline">Tourism & Travel</span></div></a><p class="footer__desc">Agence premium depuis Alger.</p><span class="footer__gnv"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> GNV Officiel</span></div>
+        <div><h4 class="footer__heading">Navigation</h4><ul class="footer__links"><li><a href="index.html">Accueil</a></li><li><a href="services.html">Services</a></li><li><a href="destinations.html">Destinations</a></li><li><a href="hadj-omra.html">Hadj & Omra</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><h4 class="footer__heading">Contact</h4><ul class="footer__links"><li><a href="tel:+213000000000">Téléphone</a></li><li><a href="#">WhatsApp</a></li><li><a href="#">Email</a></li></ul></div>
+        <div><h4 class="footer__heading">Suivez-nous</h4><div class="footer__social"><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/></svg></a><a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div></div>
+      </div>
+      <div class="footer__bottom"><span>© 2025 DRIK Tourism & Travel</span><span>Représentants Officiels GNV</span></div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

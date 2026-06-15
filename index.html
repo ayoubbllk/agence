@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DRIK Tourism & Travel — Agence de voyage premium algérienne. Représentants officiels GNV depuis Alger.">
+  <title>DRIK Tourism & Travel — Voyagez avec Confiance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <div class="logo__icon"><span>D</span></div>
+        <div class="logo__text">
+          <span class="logo__name">DRIK</span>
+          <span class="logo__tagline">Tourism & Travel</span>
+        </div>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Accueil</a></li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li><a href="destinations.html" class="nav__link">Voyages</a></li>
+          <li><a href="hadj-omra.html" class="nav__link">Hadj & Omra</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--gold">Réserver</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="destinations.html">Voyages</a>
+    <a href="hadj-omra.html">Hadj & Omra</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn--gold">Réserver</a>
+  </nav>
+
+  <!-- ═══ SECTION 1 : HERO ═══ -->
+  <section class="hero" id="accueil">
+    <div class="hero__slider">
+      <div class="hero__slide active" style="background-image:url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1920&q=80&auto=format&fit=crop')"></div>
+      <div class="hero__slide" style="background-image:url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1920&q=80&auto=format&fit=crop')"></div>
+      <div class="hero__slide" style="background-image:url('https://images.unsplash.com/photo-1506929562872-bb421704ef21?w=1920&q=80&auto=format&fit=crop')"></div>
+    </div>
+
+    <div class="hero__flight-line" aria-hidden="true">
+      <svg viewBox="0 0 1200 70" preserveAspectRatio="none">
+        <path class="flight-path" d="M 0 55 Q 250 8, 500 40 T 900 25 T 1200 45" />
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__badge fade-in">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Représentants Officiels GNV
+        </div>
+        <h1 class="hero__title fade-in fade-in-delay-1">Voyagez avec <em>Confiance</em>,<br>Découvrez le Monde</h1>
+        <p class="hero__subtitle fade-in fade-in-delay-2">Votre partenaire de voyage premium depuis Alger — billetterie maritime, aérienne, circuits organisés & pèlerinages.</p>
+
+        <div class="hero__actions fade-in fade-in-delay-3">
+          <a href="destinations.html" class="btn btn--gold">Nos Destinations</a>
+          <a href="contact.html" class="btn btn--outline">Contactez-nous</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__dots">
+      <button class="hero__dot active" aria-label="Slide 1"></button>
+      <button class="hero__dot" aria-label="Slide 2"></button>
+      <button class="hero__dot" aria-label="Slide 3"></button>
+    </div>
+  </section>
+
+  <!-- Marquee GNV -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span class="marquee__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18h18M5 18V8l7-4 7 4v10"/></svg> GNV Officiel Algérie</span>
+      <span class="marquee__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 00-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3-1 3 1v-1.5L13 19v-5.5l8 2.5z"/></svg> Billetterie Aérienne</span>
+      <span class="marquee__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/></svg> Voyages Organisés</span>
+      <span class="marquee__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3c-1.5 2-4 4.5-4 7a4 4 0 008 0c0-2.5-2.5-5-4-7z"/></svg> Hadj & Omra</span>
+      <span class="marquee__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Agrément Officiel</span>
+      <span class="marquee__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18h18M5 18V8l7-4 7 4v10"/></svg> GNV Officiel Algérie</span>
+      <span class="marquee__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 00-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3-1 3 1v-1.5L13 19v-5.5l8 2.5z"/></svg> Billetterie Aérienne</span>
+      <span class="marquee__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/></svg> Voyages Organisés</span>
+      <span class="marquee__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3c-1.5 2-4 4.5-4 7a4 4 0 008 0c0-2.5-2.5-5-4-7z"/></svg> Hadj & Omra</span>
+      <span class="marquee__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Agrément Officiel</span>
+    </div>
+  </div>
+
+  <!-- ═══ SECTION 2 : SERVICES ═══ -->
+  <section class="section" id="services">
+    <div class="container">
+      <p class="eyebrow fade-in">Ce que nous offrons</p>
+      <h2 class="section-title fade-in">Nos Services</h2>
+      <p class="section-subtitle fade-in">De la traversée maritime GNV au pèlerinage, chaque voyage est orchestré avec soin depuis Alger.</p>
+
+      <div class="services-preview">
+        <article class="service-card fade-in">
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80&auto=format&fit=crop" alt="Ferry maritime GNV" loading="lazy">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 18h18M5 18V8l7-4 7 4v10"/></svg></div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Billetterie Maritime GNV</h3>
+            <p class="service-card__desc">Traversées officielles Algérie ↔ France, Espagne, Italie. Billets garantis, cabines confort.</p>
+            <a href="services.html#maritime" class="service-card__link">En savoir plus →</a>
+          </div>
+        </article>
+
+        <article class="service-card fade-in fade-in-delay-1">
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&q=80&auto=format&fit=crop" alt="Billetterie aérienne" loading="lazy">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 00-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3-1 3 1v-1.5L13 19v-5.5l8 2.5z"/></svg></div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Billetterie Aérienne</h3>
+            <p class="service-card__desc">Vols nationaux et internationaux. Toutes compagnies, meilleurs tarifs négociés.</p>
+            <a href="services.html#aerien" class="service-card__link">En savoir plus →</a>
+          </div>
+        </article>
+
+        <article class="service-card fade-in fade-in-delay-2">
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&q=80&auto=format&fit=crop" alt="Voyages organisés" loading="lazy">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/></svg></div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Voyages Organisés</h3>
+            <p class="service-card__desc">Circuits clé en main : transport, hôtel 4★, guide francophone, visa assisté.</p>
+            <a href="destinations.html" class="service-card__link">Voir les circuits →</a>
+          </div>
+        </article>
+
+        <article class="service-card fade-in">
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1591604129939-f1efa4c558b9?w=600&q=80&auto=format&fit=crop" alt="Hadj Omra" loading="lazy">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3c-1.5 2-4 4.5-4 7a4 4 0 008 0c0-2.5-2.5-5-4-7z"/></svg></div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Hadj & Omra</h3>
+            <p class="service-card__desc">Forfaits spirituels complets avec accompagnement, hôtels proches du Haram.</p>
+            <a href="hadj-omra.html" class="service-card__link">Forfaits disponibles →</a>
+          </div>
+        </article>
+
+        <article class="service-card fade-in fade-in-delay-1">
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80&auto=format&fit=crop" alt="Voyage sur mesure" loading="lazy">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Sur Mesure</h3>
+            <p class="service-card__desc">Itinéraire 100% personnalisé selon votre budget, vos dates et vos envies.</p>
+            <a href="contact.html" class="service-card__link">Créer mon voyage →</a>
+          </div>
+        </article>
+
+        <article class="service-card fade-in fade-in-delay-2">
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format&fit=crop" alt="Assistance visa" loading="lazy">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Assistance Visa</h3>
+            <p class="service-card__desc">Préparation dossier, rendez-vous consulat, suivi jusqu'à l'obtention.</p>
+            <a href="services.html#visa" class="service-card__link">En savoir plus →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SECTION 3 : DESTINATIONS — STORIES INSTAGRAM ═══ -->
+  <section class="section section--light stories-section" id="destinations">
+    <div class="container">
+      <p class="eyebrow fade-in">Explorer le monde</p>
+      <h2 class="section-title fade-in">Nos Destinations Phares</h2>
+      <p class="section-subtitle fade-in">Stories interactives — naviguez ou laissez défiler en boucle automatique ✦</p>
+    </div>
+
+    <div class="container">
+      <div class="stories-bar fade-in" id="storiesBar">
+        <div class="story-ring story-ring--active" data-story="tunisie">
+          <div class="story-ring__avatar"><img src="https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?w=200&q=80&auto=format&fit=crop" alt="Tunisie"></div>
+          <span class="story-ring__label">Tunisie</span>
+        </div>
+        <div class="story-ring" data-story="turquie">
+          <div class="story-ring__avatar"><img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=200&q=80&auto=format&fit=crop" alt="Turquie"></div>
+          <span class="story-ring__label">Turquie</span>
+        </div>
+        <div class="story-ring" data-story="thailande">
+          <div class="story-ring__avatar"><img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=200&q=80&auto=format&fit=crop" alt="Thaïlande"></div>
+          <span class="story-ring__label">Thaïlande</span>
+        </div>
+        <div class="story-ring" data-story="russie">
+          <div class="story-ring__avatar"><img src="https://images.unsplash.com/photo-1513326738677-b964753b066d?w=200&q=80&auto=format&fit=crop" alt="Russie"></div>
+          <span class="story-ring__label">Russie</span>
+        </div>
+        <div class="story-ring" data-story="malaisie">
+          <div class="story-ring__avatar"><img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=200&q=80&auto=format&fit=crop" alt="Malaisie"></div>
+          <span class="story-ring__label">Malaisie</span>
+        </div>
+        <div class="story-ring" data-story="grece">
+          <div class="story-ring__avatar"><img src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d325?w=200&q=80&auto=format&fit=crop" alt="Grèce"></div>
+          <span class="story-ring__label">Grèce</span>
+        </div>
+      </div>
+
+      <!-- Lecteur stories inline -->
+      <div class="stories-player-wrap fade-in">
+        <button class="stories-player__arrow stories-player__arrow--prev" id="storyPrev" aria-label="Story précédente" type="button">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+
+        <div class="stories-player" id="storiesPlayer">
+          <div class="story-viewer story-viewer--inline">
+            <div class="story-viewer__progress" id="storyProgress"></div>
+            <div class="story-viewer__header">
+              <img id="storyAvatar" src="" alt="">
+              <span class="story-viewer__header-name" id="storyName"></span>
+              <span class="story-viewer__slide-count" id="storySlideCount"></span>
+            </div>
+            <div class="story-viewer__slides" id="storySlides"></div>
+            <div class="story-viewer__nav">
+              <div class="story-viewer__tap-left" id="storyTapLeft"></div>
+              <div class="story-viewer__tap-right" id="storyTapRight"></div>
+            </div>
+          </div>
+        </div>
+
+        <button class="stories-player__arrow stories-player__arrow--next" id="storyNext" aria-label="Story suivante" type="button">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+
+      <p class="stories-loop-hint fade-in text-center">▶ Lecture en boucle — utilisez les flèches ou cliquez sur une destination</p>
+
+      <div class="text-center fade-in" style="margin-top:1.5rem">
+        <a href="destinations.html" class="btn btn--outline-navy">Voir toutes les destinations</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SECTION 4 : GNV + TÉMOIGNAGES ═══ -->
+  <section class="section section--navy" id="gnv">
+    <div class="container gnv-block" style="margin-bottom:4rem">
+      <div class="gnv-visual fade-in">
+        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80&auto=format&fit=crop" alt="Ferry GNV traversée méditerranée" loading="lazy">
+        <span class="gnv-visual__badge">Partenaire Officiel</span>
+      </div>
+      <div class="fade-in fade-in-delay-1">
+        <p class="eyebrow">Traversées Méditerranée</p>
+        <h2 class="section-title">Représentants Officiels GNV</h2>
+        <p class="section-subtitle">Grandi Navi Veloci — billets officiels, cabines premium, départs réguliers depuis les ports algériens.</p>
+        <div class="gnv-routes">
+          <div class="gnv-route"><span class="gnv-route__from">Alger</span><span class="gnv-route__arrow">→</span><span class="gnv-route__to">Marseille</span></div>
+          <div class="gnv-route"><span class="gnv-route__from">Alger</span><span class="gnv-route__arrow">→</span><span class="gnv-route__to">Alicante</span></div>
+          <div class="gnv-route"><span class="gnv-route__from">Béjaïa</span><span class="gnv-route__arrow">→</span><span class="gnv-route__to">Marseille</span></div>
+          <div class="gnv-route"><span class="gnv-route__from">Skikda</span><span class="gnv-route__arrow">→</span><span class="gnv-route__to">Gênes</span></div>
+        </div>
+        <a href="services.html#maritime" class="btn btn--gold" style="margin-top:2rem">Réserver une traversée</a>
+      </div>
+    </div>
+
+    <div class="container text-center" style="border-top:1px solid rgba(255,255,255,0.1);padding-top:4rem">
+      <p class="eyebrow fade-in" style="justify-content:center">Ils nous font confiance</p>
+      <h2 class="section-title fade-in" style="font-size:1.75rem">Paroles de Voyageurs</h2>
+      <div class="testimonials-slider fade-in" style="margin-top:2rem">
+        <div class="testimonials-track">
+          <div class="testimonial-card">
+            <div class="testimonial-card__inner">
+              <div class="testimonial-card__stars">★★★★★</div>
+              <p class="testimonial-card__quote">"Traversée GNV réservée en 10 minutes, cabine impeccable."</p>
+              <p class="testimonial-card__author">Karim B. — Alger → Marseille</p>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__inner">
+              <div class="testimonial-card__stars">★★★★★</div>
+              <p class="testimonial-card__quote">"Omra sans stress, hôtel proche du Haram. Je recommande vivement."</p>
+              <p class="testimonial-card__author">Fatima Z. — Omra Ramadan 2025</p>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__inner">
+              <div class="testimonial-card__stars">★★★★★</div>
+              <p class="testimonial-card__quote">"Circuit Turquie parfait — Istanbul, Cappadoce, Antalya."</p>
+              <p class="testimonial-card__author">Amine & Sonia M.</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-nav">
+          <button id="testimonialPrev" aria-label="Précédent"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button id="testimonialNext" aria-label="Suivant"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SECTION 5 : CTA ═══ -->
+  <section class="cta-band" id="cta">
+    <div class="cta-band__bg"></div>
+    <div class="container cta-band__content fade-in">
+      <p class="eyebrow" style="justify-content:center;color:var(--accent-light)">Prêt à partir ?</p>
+      <h2 class="section-title">Votre Prochain Voyage Commence Ici</h2>
+      <p>Que ce soit une traversée GNV, un circuit en Turquie ou un pèlerinage Omra — notre équipe vous accompagne du A au Z.</p>
+      <div class="cta-band__actions">
+        <a href="contact.html" class="btn btn--gold">Demander un devis gratuit</a>
+        <a href="tel:+213000000000" class="btn btn--outline">Appeler l'agence</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="logo">
+            <div class="logo__icon"><span>D</span></div>
+            <div class="logo__text">
+              <span class="logo__name">DRIK</span>
+              <span class="logo__tagline">Tourism & Travel</span>
+            </div>
+          </a>
+          <p class="footer__desc">Agence de voyage premium algérienne. Votre passerelle vers le monde depuis Alger.</p>
+          <span class="footer__gnv">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Représentants Officiels GNV
+          </span>
+        </div>
+        <div>
+          <h4 class="footer__heading">Navigation</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="hadj-omra.html">Hadj & Omra</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <ul class="footer__links">
+            <li><a href="services.html#maritime">GNV Maritime</a></li>
+            <li><a href="services.html#aerien">Billetterie Aérienne</a></li>
+            <li><a href="destinations.html">Voyages Organisés</a></li>
+            <li><a href="hadj-omra.html">Hadj & Omra</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Suivez-nous</h4>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/></svg></a>
+            <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2025 DRIK Tourism & Travel — Tous droits réservés</span>
+        <span>Représentants Officiels GNV</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
